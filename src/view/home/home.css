@@ -1,0 +1,92 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  color: #445964;
+  font-family: Roboto;
+  padding-top: 180px;
+  padding: 130px 30px 50px;
+  align-items: center;
+}
+
+.intro-text-box {
+  padding-bottom: 90px;
+}
+
+.intro-name-text {
+  color: #fff;
+}
+
+.information-box {
+  width: max-content;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: var(--Dark-Grey, #263138);
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  transition: ease-in-out 0.4s;
+}
+
+.information-box:hover {
+  background-color: #fff;
+  color: #263138;
+  border-radius: 30px;
+}
+
+.resume-button {
+  text-decoration: none;
+}
+
+.soc-media-box {
+  padding-top: 90px;
+  max-height: 60px;
+}
+
+.intro-text,
+.role-text,
+.information-text {
+  text-transform: uppercase;
+}
+
+.role-text {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.role-name-text {
+  color: #c84b31;
+}
+
+.home-image {
+  height: 500px;
+  width: 700px;
+}
+
+.intro-text {
+  color: #445964;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.welcome-text {
+  font-size: 24px;
+}
+
+.soc-media-box img {
+  width: 60px;
+  height: 60px;
+  padding: 0px 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.soc-media-box img:hover {
+  width: 70px;
+  height: 70px;
+}
