@@ -1,3 +1,11 @@
+/* styles.css */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; /* Adjust the background color as needed */
+  z-index: 100; /* Adjust the z-index to control the stacking order */
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -60,4 +68,11 @@
 .nav-links a:hover:after {
   width: 100%;
   left: 0;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
 }
