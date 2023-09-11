@@ -22,38 +22,22 @@ function Header() {
 
         <div className="nav-links">
           <NavLink
-            onClick={() => scrollToSection("home")}
+            // onClick={() => scrollToSection("home")}
             className="header-text"
             to="/"
           >
             Home
           </NavLink>
-          <NavLink
-            onClick={() => scrollToSection("about")}
-            className="header-text"
-            to="/about"
-          >
+          <NavLink className="header-text" to="/about">
             About
           </NavLink>
-          <NavLink
-            onClick={() => scrollToSection("home")}
-            className="header-text"
-            to="/project"
-          >
+          <NavLink className="header-text" to="/project">
             Project
           </NavLink>
-          <NavLink
-            onClick={() => scrollToSection("home")}
-            className="header-text"
-            to="/stack"
-          >
+          <NavLink className="header-text" to="/stack">
             Stack
           </NavLink>
-          <NavLink
-            onClick={() => scrollToSection("home")}
-            className="header-text"
-            to="/contact"
-          >
+          <NavLink className="header-text" to="/contact">
             Contact
           </NavLink>
         </div>
