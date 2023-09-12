@@ -4,15 +4,15 @@ import "./header.css";
 import logo from "./img/adlee-logo.ico";
 
 function Header() {
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      window.scrollTo({
-        top: section.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
+  // const scrollToSection = (sectionId) => {
+  //   const section = document.getElementById(sectionId);
+  //   if (section) {
+  //     window.scrollTo({
+  //       top: section.offsetTop,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
   return (
     <header className="header">
       <nav className="header-container">
