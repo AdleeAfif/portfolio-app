@@ -1,4 +1,4 @@
-# Portfolio Project Readme
+# Adlee Portfolio Project
 
 ## Project Overview
 
@@ -16,11 +16,11 @@ Welcome to my portfolio project! This project serves as a showcase of my skills,
 
 This portfolio project is a personal website that provides insights about myself, showcases my projects, and offers a way to contact me. Here's a brief overview of what you can expect:
 
-- **About Me:** A section where I introduce myself, my background, and my career goals.
+- **About:** A section where I introduce myself, my background, and my career goals.
 
-- **Applied Stacks:** A list of technologies that I have used or learnt during my journey.
+- **Stack:** A list of technologies that I have used or learnt during my journey.
 
-- **Projects:** A portfolio of my past and ongoing projects. Each project includes a description, images/screenshots, and a link to the live project or its repository on GitHub.
+- **Project:** A portfolio of my past and ongoing projects. Each project includes a description, images/screenshots, and a link to the live project or its repository on GitHub.
 
 - **Resume:** You can download my up-to-date resume/CV to get a comprehensive view of my skills and experiences.
 
@@ -38,7 +38,7 @@ This portfolio project is a personal website that provides insights about myself
 
 ## Installation
 
-There's no need to install anything to view my portfolio. You can access it directly by visiting [adleeafif.app](https://adleeafif.app).
+There's no need to install anything to view my portfolio. You can access it directly by visiting [here](https://adleeafif.app).
 
 ## Usage
 
