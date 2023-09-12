@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Adlee Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+Welcome to my portfolio project! This project serves as a showcase of my skills, stacks, projects and even my contact as a software engineer/developer. Whether you're a potential employer, collaborator, or just curious about my work, you've come to the right place.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Project Details](#project-details)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Technologies Used](#technologies-used)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio project is a personal website that provides insights about myself, showcases my projects, and offers a way to contact me. Here's a brief overview of what you can expect:
 
-### `npm test`
+- **About:** A section where I introduce myself, my background, and my career goals.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Stack:** A list of technologies that I have used or learnt during my journey.
 
-### `npm run build`
+- **Project:** A portfolio of my past and ongoing projects. Each project includes a description, images/screenshots, and a link to the live project or its repository on GitHub.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Resume:** You can download my up-to-date resume/CV to get a comprehensive view of my skills and experiences.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Contact:** A way to reach out to me, whether it's for a job opportunity, a collaboration, or just to say hello.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Responsive design: The portfolio is optimized for various screen sizes, from desktops to mobile devices. (Upcoming)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Interactive components: It includes interactive elements like hover effects, click-to-download resume, and smooth transistion.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Easy navigation: The navigation menu allows users to quickly jump to different sections of the portfolio.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Dynamic content: The projects section is dynamically generated based on data, making it easy to update and expand as needed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+There's no need to install anything to view my portfolio. You can access it directly by visiting [here](https://adleeafif.app).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore my portfolio and get to know me better. Here are some tips for navigating the site:
 
-### Code Splitting
+- Click on the navigation links at the top to jump to specific sections.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Download my resume/CV from the "Resume" section if you're interested in my qualifications.
 
-### Analyzing the Bundle Size
+- If you'd like to get in touch, use the contact form or the provided email address.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+My portfolio project was built using a variety of technologies, including but not limited to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- HTML5 and CSS3 for the structure and styling of the website.
 
-### Advanced Configuration
+- JavaScript for interactive features and smooth scrolling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [React](https://getbootstrap.com/) for responsive design and layout components.
 
-### Deployment
+- [GitHub Pages](https://pages.github.com/) for hosting the website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- More will be added!
