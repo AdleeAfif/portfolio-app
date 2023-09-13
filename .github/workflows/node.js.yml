@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
-          git remote set-url origin https://$MY_NAME:${{ secrets.MY_PASSWORD }}@github.com/AdleeAfif/portfolio-app.git
+          git remote set-url origin https://${{ secrets.MY_TOKEN }}@github.com/AdleeAfif/portfolio-app.git
 
       - run: npm i
       - run: npm run build --if-present
