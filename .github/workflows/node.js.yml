@@ -4,6 +4,10 @@ on:
   push:
     branches: ["master"]
 
+env:
+  MY_NAME: ${{ vars.MY_NAME }}
+  MY_EMAIL: ${{ vars.MY_EMAIL }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,8 +26,8 @@ jobs:
           cache: "npm"
       - name: Set up Git user identity
         run: |
-          git config --global user.email ${{ vars.MY_EMAIL }}
-          git config --global user.name ${{ vars.MY_NAME }}
+          git config --global user.email $MY_EMAIL
+          git config --global user.name $MY_NAME
 
       - run: npm i
       - run: npm run build --if-present
