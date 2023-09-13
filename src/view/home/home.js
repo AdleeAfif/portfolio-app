@@ -47,7 +47,7 @@ function Home() {
               </span>
             </div>
             <div className="welcome-text">
-              Welcome to my portfolio page! &#128591;
+              Welcome to my portfolio page! &#128075;
             </div>
           </div>
           <a
