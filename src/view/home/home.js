@@ -69,7 +69,7 @@ function Home() {
                 className="soc-med-icon"
               />
             </a>
-            <a href="www.linkedin.com/in/adlee-afif">
+            <a href="https://www.linkedin.com/in/adlee-afif">
               <img
                 src={iconLinkedIn}
                 alt="LinkedIn Icon"
