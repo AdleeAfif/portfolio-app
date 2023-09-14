@@ -28,13 +28,25 @@ This portfolio project is a personal website that provides insights about myself
 
 ## Features
 
-- Responsive design: The portfolio is optimized for various screen sizes, from desktops to mobile devices. (Upcoming)
-
 - Interactive components: It includes interactive elements like hover effects, click-to-download resume, and smooth transistion.
 
 - Easy navigation: The navigation menu allows users to quickly jump to different sections of the portfolio.
 
 - Dynamic content: The projects section is dynamically generated based on data, making it easy to update and expand as needed.
+
+- Auto-deployment: This future ensures that the latest version of my project is automatically deployed and made accessible to users without manual intervention.
+
+### Upcoming Features
+
+1. ~~**Auto Deployment:** I'm working on implementing an automatic deployment process to ensure that the latest version of my portfolio is always available without manual updates.~~ _Completed on 13/09/2023_
+
+2. **Page-to-Page Animation:** I plan to add smooth animations when transitioning between different pages or sections of the portfolio, enhancing the overall user experience.
+
+3. **Responsive Design Enhancements:** While the portfolio is already responsive, I'll be making further improvements to ensure optimal viewing on all devices and screen sizes.
+
+4. **Database Integration:** I'm in the process of integrating a database to store and manage data for my projects and other portfolio content. This will streamline content updates and improve data management.
+
+Please stay tuned for these upcoming features that will enhance the functionality and aesthetics of my portfolio.
 
 ## Installation
 
