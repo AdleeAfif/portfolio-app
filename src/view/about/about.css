@@ -1,42 +1,68 @@
-.coming-soon {
-  text-align: center;
-  padding: 40px 30px 20px;
-}
-
-.coming-soon h1,
-h2 {
+.about-container {
   color: #445964;
   font-family: Roboto;
-}
-
-.coming-soon h1 {
-  font-size: 52px;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.coming-soon h2 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-
-.special-word {
-  color: #c84b31;
-}
-
-.coming-soon img {
-  height: 450px;
-  width: 450px;
-}
-
-.coming-soon a {
+  padding: 100px 30px;
   color: #fff;
-  text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
 
-.coming-soon a:hover {
-  text-decoration: underline;
+.about-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 550px;
+  border: 1px solid #fff;
+}
+
+.about-img {
+  height: 500px;
+}
+
+.about-text-box {
+  padding-left: 200px;
+}
+
+.about-myself-box {
+  width: 800px;
+  text-align: justify;
+}
+
+.about-text-box h1 {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.about-text-box p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.skill-table {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Create space between columns */
+  width: 100%; /* Ensure rows take the full width */
+  margin-bottom: 10px; /* Adjust the spacing between rows */
+}
+
+.cell {
+  margin: 5px 20px;
+  text-align: center;
+  flex: 1; /* Allow cells to grow and take up equal space */
+  padding: 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Optional: Add borders for cell separation */
+  border-radius: 20px;
 }
