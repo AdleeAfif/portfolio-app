@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.b18c800b.css",
-    "main.js": "/portfolio-app/static/js/main.2ab6e386.js",
+    "main.css": "/portfolio-app/static/css/main.c01ab866.css",
+    "main.js": "/portfolio-app/static/js/main.e7465d1e.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
     "static/media/progammer.png": "/portfolio-app/static/media/progammer.47a3d4f8e79af1995b55.png",
+    "static/media/adlee-image.png": "/portfolio-app/static/media/adlee-image.c9e9565d6d66852e9b97.png",
     "static/media/resume.pdf": "/portfolio-app/static/media/resume.d6707a5ed65e44e116a8.pdf",
     "static/media/sorry.png": "/portfolio-app/static/media/sorry.db59b97667172b5a1e91.png",
     "static/media/icons8-instagram-94.png": "/portfolio-app/static/media/icons8-instagram-94.de648ccdbd2e455e6249.png",
@@ -11,12 +12,12 @@
     "static/media/icons8-github-94.png": "/portfolio-app/static/media/icons8-github-94.7acde23236a5c7507398.png",
     "static/media/adlee-logo.ico": "/portfolio-app/static/media/adlee-logo.c6a7caeefd19cfba91e5.ico",
     "index.html": "/portfolio-app/index.html",
-    "main.b18c800b.css.map": "/portfolio-app/static/css/main.b18c800b.css.map",
-    "main.2ab6e386.js.map": "/portfolio-app/static/js/main.2ab6e386.js.map",
+    "main.c01ab866.css.map": "/portfolio-app/static/css/main.c01ab866.css.map",
+    "main.e7465d1e.js.map": "/portfolio-app/static/js/main.e7465d1e.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18c800b.css",
-    "static/js/main.2ab6e386.js"
+    "static/css/main.c01ab866.css",
+    "static/js/main.e7465d1e.js"
   ]
 }
