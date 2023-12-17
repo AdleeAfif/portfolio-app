@@ -15,7 +15,7 @@ function Home() {
         <div className="intro-box">
           <div className="intro-text-box">
             <div className="intro-text">
-              Hi, my name is{" "}
+              TESTING, my name is{" "}
               <span className="intro-name-text">
                 Adlee Afif. &#128104;&#8205;&#128187;
               </span>
