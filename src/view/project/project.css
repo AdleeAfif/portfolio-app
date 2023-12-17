@@ -7,7 +7,7 @@
 .project-text-box {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .project-text-box h1 {
@@ -17,14 +17,42 @@
   line-height: normal;
 }
 
-.project-text-box h2 {
-  padding-left: 30px;
+.project-text-box h3 {
+  font-size: 28px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: normal;
 }
 
 .project-unique-keyword {
   font-size: 64px;
   text-decoration: underline;
+}
+
+.project-table {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #445964;
 }

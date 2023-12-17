@@ -16,32 +16,88 @@ function Project() {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially
-                "Projects that I crafted to showcase my skills and passion for software development.",
+                "crafted to showcase my skills and passion for software development.",
                 1000,
-                "Projects that I collaborated on with cross-functional teams, fostering teamwork and problem-solving.",
+                "collaborated on with cross-functional teams, fostering teamwork and problem-solving.",
                 1000,
-                "Projects that I initiated to explore emerging technologies and expand my technical horizons.",
+                "initiated to explore emerging technologies and expand my technical horizons.",
                 1000,
-                "Projects that I designed to address real-world problems and contribute to social causes.",
+                "designed to address real-world problems and contribute to social causes.",
                 1000,
-                "Projects that I built as personal side projects to experiment with new coding techniques and frameworks.",
+                "built as personal side projects to experiment with new coding techniques and frameworks.",
                 1000,
-                "Projects that I contributed to open-source communities, giving back to the developer community.",
-                1000,
-                "Projects that I developed to demonstrate my proficiency in specific programming languages and technologies.",
+                "developed to demonstrate my proficiency in specific programming languages and technologies.",
                 1000,
               ]}
               speed={10}
               style={{
-                "padding-left": "60px",
+                "margin": "30px",
                 "font-style": "normal",
-                "font-weight": "300",
+                "font-weight": "300"
               }}
               omitDeletionAnimation={true}
               repeat={Infinity}
               deletionSpeed={90}
             />
           </h3>
+        </div>
+        <div className="project-table">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="project1.jpg"  // Replace with the actual image source
+                    alt="Personal Portfolio"
+                    className="project-image"
+                  />
+                  <p className="project-title">Personal Portfolio Site</p>
+                </td>
+                <td>
+                  <img
+                    src=""  // Replace with the actual image source
+                    alt="Contact Manager"
+                    className="project-image"
+                  />
+                  <p className="project-title">Contact Manager API</p>
+                </td>
+                <td>
+                  <img
+                    src="project3.jpg"  // Replace with the actual image source
+                    alt="WeatherEye"
+                    className="project-image"
+                  />
+                  <p className="project-title">WeatherEye App</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="project4.jpg"  // Replace with the actual image source
+                    alt="Book Review"
+                    className="project-image"
+                  />
+                  <p className="project-title">Book Review Site</p>
+                </td>
+                <td>
+                  <img
+                    src="project5.jpg"  // Replace with the actual image source
+                    alt="Blogging Site"
+                    className="project-image"
+                  />
+                  <p className="project-title">Blogging Site</p>
+                </td>
+                <td>
+                  <img
+                    src="project6.jpg"  // Replace with the actual image source
+                    alt="To Do Manager"
+                    className="project-image"
+                  />
+                  <p className="project-title">To Do Manager App</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
