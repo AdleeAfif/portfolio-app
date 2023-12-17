@@ -3,7 +3,7 @@
 ## Project Overview
 
 Welcome to my portfolio project! This project serves as a showcase of my skills, stacks, projects and even my contact as a software engineer/developer. Whether you're a potential employer, collaborator, or just curious about my work, you've come to the right place.
-dasdadasdasda
+
 ## Table of Contents
 
 1. [Project Details](#project-details)
