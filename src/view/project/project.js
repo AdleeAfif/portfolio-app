@@ -1,5 +1,12 @@
 import React from "react";
 
+import portfolioApp from "./img/portfolio-app.png";
+import contactManager from "./img/contact-manager.png";
+import weatherEye from "./img/weather-report.png";
+import bookReview from "./img/book-review.png";
+import todoManager from "./img/to-do-manager.png";
+import bloggingApp from "./img/blogging-site.png";
+
 import "./project.css";
 import { TypeAnimation } from "react-type-animation";
 
@@ -47,53 +54,53 @@ function Project() {
               <tr>
                 <td>
                   <img
-                    src="project1.jpg"  // Replace with the actual image source
+                    src= {portfolioApp}  // Replace with the actual image source
                     alt="Personal Portfolio"
                     className="project-image"
                   />
-                  <p className="project-title">Personal Portfolio Site</p>
+                  <a href="https://github.com/AdleeAfif/portfolio-app"><p className="project-title">Personal Portfolio Site</p></a>
                 </td>
                 <td>
                   <img
-                    src=""  // Replace with the actual image source
+                    src={contactManager}  // Replace with the actual image source
                     alt="Contact Manager"
                     className="project-image"
                   />
-                  <p className="project-title">Contact Manager API</p>
+                  <a href="https://github.com/AdleeAfif/Contact-Manager"><p className="project-title">Contact Manager API</p></a>
                 </td>
                 <td>
                   <img
-                    src="project3.jpg"  // Replace with the actual image source
+                    src={weatherEye}  // Replace with the actual image source
                     alt="WeatherEye"
                     className="project-image"
                   />
-                  <p className="project-title">WeatherEye App</p>
+                  <a href="https://github.com/AdleeAfif/WeatherEye"><p className="project-title">WeatherEye App</p></a>
                 </td>
               </tr>
               <tr>
                 <td>
                   <img
-                    src="project4.jpg"  // Replace with the actual image source
+                    src={bookReview}  // Replace with the actual image source
                     alt="Book Review"
                     className="project-image"
                   />
-                  <p className="project-title">Book Review Site</p>
+                  <a href="https://github.com/AdleeAfif/Book-Review-App"><p className="project-title">Book Review Site</p></a>
                 </td>
                 <td>
                   <img
-                    src="project5.jpg"  // Replace with the actual image source
+                    src={bloggingApp}  // Replace with the actual image source
                     alt="Blogging Site"
                     className="project-image"
                   />
-                  <p className="project-title">Blogging Site</p>
+                  <a href="https://github.com/AdleeAfif/Blogging-App"><p className="project-title">Blogging Site</p></a>
                 </td>
                 <td>
                   <img
-                    src="project6.jpg"  // Replace with the actual image source
+                    src={todoManager} // Replace with the actual image source
                     alt="To Do Manager"
                     className="project-image"
                   />
-                  <p className="project-title">To Do Manager App</p>
+                  <a href="https://github.com/AdleeAfif/To-Do-Manager-API"><p className="project-title">To Do Manager App</p></a>
                 </td>
               </tr>
             </tbody>
