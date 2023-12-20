@@ -1,42 +1,49 @@
-.coming-soon {
-  text-align: center;
-  padding: 40px 30px 20px;
-}
+/* contact.css */
 
-.coming-soon h1,
-h2 {
-  color: #445964;
+.contact-container {
   font-family: Roboto;
-}
-
-.coming-soon h1 {
-  font-size: 52px;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.coming-soon h2 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-
-.special-word {
-  color: #c84b31;
-}
-
-.coming-soon img {
-  height: 450px;
-  width: 450px;
-}
-
-.coming-soon a {
+  padding: 45px 30px;
   color: #fff;
-  text-decoration: none;
 }
 
-.coming-soon a:hover {
+.contact-text-box {
+  align-items: center;
+  text-align: center;
+}
+
+.contact-text-box h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.contact-text-box h3 {
   text-decoration: underline;
+}
+
+.contact-card {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  color: black;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.map-section {
+  grid-column: span 3; /* Ensure the map covers the full width */
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
 }

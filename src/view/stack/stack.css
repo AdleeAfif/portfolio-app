@@ -1,42 +1,50 @@
-.coming-soon {
-  text-align: center;
-  padding: 40px 30px 20px;
-}
-
-.coming-soon h1,
-h2 {
-  color: #445964;
+.stack-container {
   font-family: Roboto;
-}
-
-.coming-soon h1 {
-  font-size: 52px;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.coming-soon h2 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-
-.special-word {
-  color: #c84b31;
-}
-
-.coming-soon img {
-  height: 450px;
-  width: 450px;
-}
-
-.coming-soon a {
+  padding: 45px 30px;
   color: #fff;
-  text-decoration: none;
 }
 
-.coming-soon a:hover {
+.stack-text-box {
+  align-items: center;
+  text-align: center;
+}
+
+.stack-text-box h1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+}
+
+.stack-unique-keyword {
+  font-size: 64px;
   text-decoration: underline;
 }
+
+.stack-table {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  position: relative; /* Add this line for stacking context */
+  padding: 10px;
+  border: none;
+  height: 180px; /* Set a fixed height for the table cells */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.framework-img {
+  transition: filter 0.1s ease-in-out;
+}
+
+.framework-img:hover {
+  filter: brightness(200%) drop-shadow(0 0 0.75rem #ffff); /* Adjust the glow effect as needed */
+}
+

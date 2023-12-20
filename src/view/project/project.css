@@ -7,7 +7,7 @@
 .project-text-box {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .project-text-box h1 {
@@ -17,10 +17,10 @@
   line-height: normal;
 }
 
-.project-text-box h2 {
-  padding-left: 30px;
+.project-text-box h3 {
+  font-size: 28px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -28,3 +28,96 @@
   font-size: 64px;
   text-decoration: underline;
 }
+
+/* Add these styles to your existing CSS file */
+
+.project-table {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  position: relative; /* Add this line for stacking context */
+  padding: 10px;
+  border: 1px solid #ddd;
+  height: 180px; /* Set a fixed height for the table cells */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.project-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the entire image is covered within the container */
+  border-radius: 8px;
+  transition: filter 0.3s ease; /* Add transition property for filter */
+}
+
+.project-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initial opacity set to 0 */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition properties */
+}
+
+/* Add a hover effect for td */
+td:hover .project-title {
+  transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+  opacity: 1; /* Set opacity to 1 on hover */
+}
+
+/* Add a hover effect for image */
+td:hover .project-image {
+  filter: blur(5px) brightness(0.7); /* Apply blur and darken effect on hover */
+}
+
+/* Add these styles to your existing CSS file */
+
+.project-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initial opacity set to 0 */
+  transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease; /* Add transition properties for text */
+}
+
+.project-title:hover {
+  text-decoration: none; /* Remove the default underline */
+}
+
+.project-title:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline */
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, transparent 50%, #fff 50%); /* Linear gradient for smooth transition */
+  background-size: 200% 100%; /* Double the size for the sliding effect */
+  transition: background-position 0.3s cubic-bezier(0.47, 0.21, 0.41, 0.99); /* Add cubic-bezier for smooth animation */
+}
+
+.project-title:hover:before {
+  background-position: -100% 0; /* Slide the gradient to reveal the underline on hover */
+}
+
+
+
+
