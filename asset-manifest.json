@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.11e39d93.css",
-    "main.js": "/portfolio-app/static/js/main.14f184b3.js",
-    "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
+    "main.css": "/portfolio-app/static/css/main.5a287e61.css",
+    "main.js": "/portfolio-app/static/js/main.46a739cb.js",
+    "static/js/496.f3f2d8d3.chunk.js": "/portfolio-app/static/js/496.f3f2d8d3.chunk.js",
+    "static/media/book-review.png": "/portfolio-app/static/media/book-review.bbbdc4d5b2ff15ec06aa.png",
+    "static/media/blogging-site.png": "/portfolio-app/static/media/blogging-site.3a989bf7ef267e7ff67f.png",
+    "static/media/weather-report.png": "/portfolio-app/static/media/weather-report.80d838af6df30eb1c4ba.png",
+    "static/media/to-do-manager.png": "/portfolio-app/static/media/to-do-manager.c266acdeb9a191877da9.png",
+    "static/media/contact-manager.png": "/portfolio-app/static/media/contact-manager.8f6116ec34be759928d4.png",
+    "static/media/portfolio-app.png": "/portfolio-app/static/media/portfolio-app.226db71307b53f5317d7.png",
     "static/media/progammer.png": "/portfolio-app/static/media/progammer.47a3d4f8e79af1995b55.png",
     "static/media/adlee-image.png": "/portfolio-app/static/media/adlee-image.c9e9565d6d66852e9b97.png",
     "static/media/resume.pdf": "/portfolio-app/static/media/resume.d6707a5ed65e44e116a8.pdf",
-    "static/media/sorry.png": "/portfolio-app/static/media/sorry.db59b97667172b5a1e91.png",
     "static/media/icons8-instagram-94.png": "/portfolio-app/static/media/icons8-instagram-94.de648ccdbd2e455e6249.png",
     "static/media/icons8-linkedin-94.png": "/portfolio-app/static/media/icons8-linkedin-94.375093d58bacaaabe769.png",
     "static/media/icons8-github-94.png": "/portfolio-app/static/media/icons8-github-94.7acde23236a5c7507398.png",
     "static/media/adlee-logo.ico": "/portfolio-app/static/media/adlee-logo.c6a7caeefd19cfba91e5.ico",
     "index.html": "/portfolio-app/index.html",
-    "main.11e39d93.css.map": "/portfolio-app/static/css/main.11e39d93.css.map",
-    "main.14f184b3.js.map": "/portfolio-app/static/js/main.14f184b3.js.map",
-    "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
+    "main.5a287e61.css.map": "/portfolio-app/static/css/main.5a287e61.css.map",
+    "main.46a739cb.js.map": "/portfolio-app/static/js/main.46a739cb.js.map",
+    "496.f3f2d8d3.chunk.js.map": "/portfolio-app/static/js/496.f3f2d8d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11e39d93.css",
-    "static/js/main.14f184b3.js"
+    "static/css/main.5a287e61.css",
+    "static/js/main.46a739cb.js"
   ]
 }
