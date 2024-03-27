@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.5a287e61.css",
-    "main.js": "/portfolio-app/static/js/main.c99ce85b.js",
+    "main.js": "/portfolio-app/static/js/main.bf268fc5.js",
     "static/js/496.5f61bc25.chunk.js": "/portfolio-app/static/js/496.5f61bc25.chunk.js",
     "static/media/book-review.png": "/portfolio-app/static/media/book-review.bbbdc4d5b2ff15ec06aa.png",
     "static/media/blogging-site.png": "/portfolio-app/static/media/blogging-site.3a989bf7ef267e7ff67f.png",
@@ -11,18 +11,18 @@
     "static/media/portfolio-app.png": "/portfolio-app/static/media/portfolio-app.226db71307b53f5317d7.png",
     "static/media/progammer.png": "/portfolio-app/static/media/progammer.47a3d4f8e79af1995b55.png",
     "static/media/adlee-image.png": "/portfolio-app/static/media/adlee-image.c9e9565d6d66852e9b97.png",
-    "static/media/resume.pdf": "/portfolio-app/static/media/resume.d6707a5ed65e44e116a8.pdf",
+    "static/media/resume.pdf": "/portfolio-app/static/media/resume.4e10f9aafdd2db763bc5.pdf",
     "static/media/icons8-instagram-94.png": "/portfolio-app/static/media/icons8-instagram-94.de648ccdbd2e455e6249.png",
     "static/media/icons8-linkedin-94.png": "/portfolio-app/static/media/icons8-linkedin-94.375093d58bacaaabe769.png",
     "static/media/icons8-github-94.png": "/portfolio-app/static/media/icons8-github-94.7acde23236a5c7507398.png",
     "static/media/adlee-logo.ico": "/portfolio-app/static/media/adlee-logo.c6a7caeefd19cfba91e5.ico",
     "index.html": "/portfolio-app/index.html",
     "main.5a287e61.css.map": "/portfolio-app/static/css/main.5a287e61.css.map",
-    "main.c99ce85b.js.map": "/portfolio-app/static/js/main.c99ce85b.js.map",
+    "main.bf268fc5.js.map": "/portfolio-app/static/js/main.bf268fc5.js.map",
     "496.5f61bc25.chunk.js.map": "/portfolio-app/static/js/496.5f61bc25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a287e61.css",
-    "static/js/main.c99ce85b.js"
+    "static/js/main.bf268fc5.js"
   ]
 }
