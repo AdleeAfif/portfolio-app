@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.5a287e61.css",
-    "main.js": "/portfolio-app/static/js/main.46a739cb.js",
-    "static/js/496.f3f2d8d3.chunk.js": "/portfolio-app/static/js/496.f3f2d8d3.chunk.js",
+    "main.js": "/portfolio-app/static/js/main.c99ce85b.js",
+    "static/js/496.5f61bc25.chunk.js": "/portfolio-app/static/js/496.5f61bc25.chunk.js",
     "static/media/book-review.png": "/portfolio-app/static/media/book-review.bbbdc4d5b2ff15ec06aa.png",
     "static/media/blogging-site.png": "/portfolio-app/static/media/blogging-site.3a989bf7ef267e7ff67f.png",
     "static/media/weather-report.png": "/portfolio-app/static/media/weather-report.80d838af6df30eb1c4ba.png",
@@ -18,11 +18,11 @@
     "static/media/adlee-logo.ico": "/portfolio-app/static/media/adlee-logo.c6a7caeefd19cfba91e5.ico",
     "index.html": "/portfolio-app/index.html",
     "main.5a287e61.css.map": "/portfolio-app/static/css/main.5a287e61.css.map",
-    "main.46a739cb.js.map": "/portfolio-app/static/js/main.46a739cb.js.map",
-    "496.f3f2d8d3.chunk.js.map": "/portfolio-app/static/js/496.f3f2d8d3.chunk.js.map"
+    "main.c99ce85b.js.map": "/portfolio-app/static/js/main.c99ce85b.js.map",
+    "496.5f61bc25.chunk.js.map": "/portfolio-app/static/js/496.5f61bc25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a287e61.css",
-    "static/js/main.46a739cb.js"
+    "static/js/main.c99ce85b.js"
   ]
 }
