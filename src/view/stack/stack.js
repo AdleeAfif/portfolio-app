@@ -74,8 +74,8 @@ function Stack() {
               <img
                 width="96"
                 height="96"
-                src="https://img.icons8.com/color/96/bootstrap--v2.png"
-                alt="bootstrap--v2"
+                src="https://img.icons8.com/color/96/clr_ejs_1.png"
+                alt="ejs_engine"
                 className="framework-img"
               />
             </td>
