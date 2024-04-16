@@ -56,7 +56,6 @@ jobs:
         pm2 start npm --name "portfolio-app" -- start
     
         # Deploy the application to EC2
-        cd ../
         cd ~/.ssh
         scp -i ec2_key.pem -o StrictHostKeyChecking=no -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
     
