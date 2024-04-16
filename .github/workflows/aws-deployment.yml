@@ -55,7 +55,7 @@ jobs:
         # Deploy the application to EC2
         echo "${{ secrets.EC2_KEY_PAIR }}" > ec2_key.pem
         chmod 600 ec2_key.pem
-        scp -i ec2_key.pem -o StrictHostKeyChecking=no -r portfolio-app/. $EC2_USERNAME@$EC2_PUBLIC_IP:$DEPLOY_PATH
+        scp -i ec2_ssh_key.pem -o StrictHostKeyChecking=no -r $PWD/portfolio-app/. $EC2_USERNAME@$EC2_PUBLIC_IP:$DEPLOY_PATH
     
         # Restart the application on EC2 using pm2
         ssh -i ec2_key.pem -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_IP "cd $DEPLOY_PATH && pm2 restart portfolio-app"
