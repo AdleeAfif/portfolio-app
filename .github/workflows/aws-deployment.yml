@@ -26,21 +26,22 @@ jobs:
         EC2_KEY_PAIR: ${{ secrets.EC2_KEY_PAIR }}
         DEPLOY_PATH: /home/ec2-user/portfolio-app
       run: |
-        # Install necessary dependencies
-        sudo apt-get update
-        sudo apt-get install -y nodejs npm
+          # Install necessary dependencies
+          sudo apt-get update
+          sudo apt-get install -y nodejs npm
+          npm install -g pm2
 
-        # Clone the repository
-        git clone https://github.com/AdleeAfif/portfolio-app.git
+          # Clone the repository
+          git clone https://github.com/AdleeAfif/portfolio-app.git
 
-        # Install project dependencies
-        cd portfolio-app
-        npm install
+          # Install project dependencies
+          cd portfolio-app
+          npm install
 
-        # Build and start the application
-        npm run build
-        npm start
+          # Build and start the application in the background
+          npm run build
+          pm2 start npm --name "portfolio-app" -- start
 
-         # Deploy the application to EC2
-        scp -i $EC2_KEY_PAIR -o StrictHostKeyChecking=no -r portfolio-app/* ec2-user@$EC2_PUBLIC_IP:$DEPLOY_PATH
-        ssh -i $EC2_KEY_PAIR -o StrictHostKeyChecking=no ec2-user@$EC2_PUBLIC_IP 'cd $DEPLOY_PATH && npm start'
+          # Deploy the application to EC2
+          scp -i $EC2_KEY_PAIR -o StrictHostKeyChecking=no -r portfolio-app/. $EC2_USERNAME@$EC2_PUBLIC_IP:$DEPLOY_PATH
+          ssh -i $EC2_KEY_PAIR -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_IP "cd $DEPLOY_PATH && pm2 restart portfolio-app"
