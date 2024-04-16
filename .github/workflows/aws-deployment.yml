@@ -40,9 +40,8 @@ jobs:
     - name: Save SSH key to file
       run: |
         echo "${{ secrets.EC2_KEY_PAIR }}" > ec2_key.pem
-        chmod 600 ec2_key.pem
+        chmod 400 ec2_key.pem
         ls -l
-        pwd
 
     - name: Deploy the application to EC2
       run: |
@@ -60,9 +59,8 @@ jobs:
         pm2 start npm --name "portfolio-app" -- start
     
         # Deploy the application to EC2
-        pwd
-        scp -i /home/runner/work/portfolio-app/portfolio-app/ec2_key.pem -o StrictHostKeyChecking=no -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
+        scp -i ${{ secrets.EC2_KEY_PAIR }} -o StrictHostKeyChecking=no -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
     
         # Restart the application on EC2 using pm2
-        ssh -i /home/runner/work/portfolio-app/portfolio-app/ec2_key.pem -o StrictHostKeyChecking=no ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }} && pm2 restart portfolio-app"
+        ssh -i ${{ secrets.EC2_KEY_PAIR }} -o StrictHostKeyChecking=no ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }} && pm2 restart portfolio-app"
     
