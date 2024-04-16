@@ -26,17 +26,15 @@ function Home() {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed once, initially
-                    "Mobile App Dev.",
-                    1000,
-                    "Back-end Dev.",
-                    1000,
-                    "Software Dev.",
-                    1000,
                     "Software Engni",
                     1000,
                     "Software Enginer",
                     1000,
                     "Software Engineer.",
+                    1000,
+                    "Back-end Dev.",
+                    1000,
+                    "Software Dev.",
                     1000,
                   ]}
                   speed={20}
