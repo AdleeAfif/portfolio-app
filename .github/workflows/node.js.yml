@@ -31,5 +31,5 @@ jobs:
       - run: npm i
       - run: npm run build --if-present
       - name: Create CNAME file
-        run: echo "www.yourdomain.com" > ./build/CNAME  # Replace with your custom domain
+        run: echo "nikadlee.dev" > ./build/CNAME  # Replace with your custom domain
       - run: npm run deploy
