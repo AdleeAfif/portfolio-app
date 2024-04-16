@@ -55,6 +55,9 @@ jobs:
         # Deploy the application to EC2
         echo "${{ secrets.EC2_KEY_PAIR }}" > ec2_key.pem
         chmod 600 ec2_key.pem
+
+        ssh -i ec2_key.pem $EC2_USERNAME@$EC2_PUBLIC_IP -v
+        
         scp -i ec2_key.pem -o StrictHostKeyChecking=no -r $PWD $EC2_USERNAME@$EC2_PUBLIC_IP:$DEPLOY_PATH
     
         # Restart the application on EC2 using pm2
