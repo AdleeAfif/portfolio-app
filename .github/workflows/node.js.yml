@@ -15,7 +15,6 @@ jobs:
     strategy:
       matrix:
         node-version: [19.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@v3
@@ -29,8 +28,8 @@ jobs:
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
           git remote set-url origin https://${{ secrets.MY_TOKEN }}@github.com/AdleeAfif/portfolio-app.git
-
       - run: npm i
       - run: npm run build --if-present
+      - name: Create CNAME file
+        run: echo "www.yourdomain.com" > ./build/CNAME  # Replace with your custom domain
       - run: npm run deploy
-    # - run: npm test --passWithNoTests
