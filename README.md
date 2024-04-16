@@ -40,11 +40,13 @@ This portfolio project is a personal website that provides insights about myself
 
 1. ~~**Auto Deployment:** I'm working on implementing an automatic deployment process to ensure that the latest version of my portfolio is always available without manual updates.~~ _Completed on 13/09/2023_
 
-2. **Page-to-Page Animation:** I plan to add smooth animations when transitioning between different pages or sections of the portfolio, enhancing the overall user experience.
+2. **AWS Deployment:** Deploying to one of the best cloud service available would definitely increase the availability of the app while improving the system infrastructure.
 
-3. **Responsive Design Enhancements:** While the portfolio is already responsive, I'll be making further improvements to ensure optimal viewing on all devices and screen sizes.
+3. **Page-to-Page Animation:** I plan to add smooth animations when transitioning between different pages or sections of the portfolio, enhancing the overall user experience.
 
-4. **Database Integration:** I'm in the process of integrating a database to store and manage data for my projects and other portfolio content. This will streamline content updates and improve data management.
+4. **Responsive Design Enhancements:** While the portfolio is already responsive, I'll be making further improvements to ensure optimal viewing on all devices and screen sizes.
+
+5. **Database Integration:** I'm in the process of integrating a database to store and manage data for my projects and other portfolio content. This will streamline content updates and improve data management.
 
 Please stay tuned for these upcoming features that will enhance the functionality and aesthetics of my portfolio.
 
