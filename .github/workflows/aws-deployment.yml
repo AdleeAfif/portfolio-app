@@ -12,7 +12,7 @@ jobs:
       EC2_PUBLIC_IP: ${{ secrets.EC2_PUBLIC_IP }}
       EC2_USERNAME: ${{ secrets.EC2_USERNAME }}
       EC2_KEY_PAIR: ${{ secrets.EC2_KEY_PAIR }}
-      DEPLOY_PATH: /home/ec2-user/portfolio-app
+      DEPLOY_PATH: /home/ec2-user/
 
     steps:
     - name: Checkout code
@@ -56,10 +56,10 @@ jobs:
         echo "${{ secrets.EC2_KEY_PAIR }}" > ec2_key.pem
         chmod 600 ec2_key.pem
         ls
-        scp -i ec2_key.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
+        scp -i ec2_key.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r ./ ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}/portfolio-app
     
         # Restart the application on EC2 using pm2
-        ssh -i ec2_key.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }} && pm2 restart portfolio-app"
+        ssh -i ec2_key.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }}/portfolio-app && pm2 restart portfolio-app"
     
         # Cleanup
         rm ec2_key.pem
