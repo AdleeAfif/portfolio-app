@@ -56,9 +56,8 @@ jobs:
         pm2 start npm --name "portfolio-app" -- start
     
         # Deploy the application to EC2
-        cd ~/.ssh
-        scp -i ec2_key.pem -o StrictHostKeyChecking=no -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
+        scp -i -v ./ec2_key.pem -o StrictHostKeyChecking=no -r portfolio-app/. ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }}:${{ env.DEPLOY_PATH }}
     
         # Restart the application on EC2 using pm2
-        ssh -i ec2_key.pem -o StrictHostKeyChecking=no ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }} && pm2 restart portfolio-app"
+        ssh -i -v ./ec2_key.pem -o StrictHostKeyChecking=no ${{ env.EC2_USERNAME }}@${{ env.EC2_PUBLIC_IP }} "cd ${{ env.DEPLOY_PATH }} && pm2 restart portfolio-app"
     
