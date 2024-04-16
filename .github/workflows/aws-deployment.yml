@@ -56,7 +56,7 @@ jobs:
         echo "${{ secrets.EC2_KEY_PAIR }}" > ec2_key.pem
         chmod 600 ec2_key.pem
 
-        ssh -i ec2_key.pem $EC2_USERNAME@$EC2_PUBLIC_IP -v
+        ssh -i ec2_key.pem $EC2_USERNAME@$EC2_PUBLIC_IP
         
         scp -i ec2_key.pem -o StrictHostKeyChecking=no -r $PWD $EC2_USERNAME@$EC2_PUBLIC_IP:$DEPLOY_PATH
     
