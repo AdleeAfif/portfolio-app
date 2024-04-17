@@ -15,24 +15,37 @@ jobs:
     strategy:
       matrix:
         node-version: [19.x]
-        
+    
     steps:
     - uses: actions/checkout@v3
+    
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: "npm"
-        
+    
     - name: Set up Git user identity
       run: |
         git config --global user.email $MY_EMAIL
         git config --global user.name $MY_NAME
         git remote set-url origin https://${{ secrets.MY_TOKEN }}@github.com/AdleeAfif/portfolio-app.git
-        
+    
     - run: npm i
     - run: npm run build --if-present
-    # - run: npm run deploy
+    
+    - name: Clean up old artifacts
+      uses: actions/cache@v2
+      with:
+        path: |
+          ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+        clean-up-cache-key-pattern: |
+          ${{ runner.os }}-node-
+        clean-up-cache-age: '30 days'
+    
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
