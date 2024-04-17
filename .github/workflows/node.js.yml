@@ -34,17 +34,11 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     
-    - name: Clean up old artifacts
-      uses: actions/cache@v2
+    - name: Clean up old caches
+      uses: actions/cache-cleanup@v2
       with:
-        path: |
-          ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-        clean-up-cache-key-pattern: |
-          ${{ runner.os }}-node-
-        clean-up-cache-age: '30 days'
+        cache-key-prefix: ${{ runner.os }}-node-
+        cache-age-limit: 30 # Days
     
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
