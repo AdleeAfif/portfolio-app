@@ -36,6 +36,10 @@ function Home() {
                     1000,
                     "Software Dev.",
                     1000,
+                    "Nodejs Dev.",
+                    1000,
+                    "Golang Dev.",
+                    1000,
                   ]}
                   speed={20}
                   style={{ fontSize: "72px" }}
