@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5a287e61.css",
-    "main.js": "/static/js/main.cb8081ae.js",
+    "main.js": "/static/js/main.e1b68df4.js",
     "static/js/496.5f61bc25.chunk.js": "/static/js/496.5f61bc25.chunk.js",
     "static/media/book-review.png": "/static/media/book-review.bbbdc4d5b2ff15ec06aa.png",
     "static/media/blogging-site.png": "/static/media/blogging-site.3a989bf7ef267e7ff67f.png",
@@ -18,11 +18,11 @@
     "static/media/adlee-logo.ico": "/static/media/adlee-logo.c6a7caeefd19cfba91e5.ico",
     "index.html": "/index.html",
     "main.5a287e61.css.map": "/static/css/main.5a287e61.css.map",
-    "main.cb8081ae.js.map": "/static/js/main.cb8081ae.js.map",
+    "main.e1b68df4.js.map": "/static/js/main.e1b68df4.js.map",
     "496.5f61bc25.chunk.js.map": "/static/js/496.5f61bc25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a287e61.css",
-    "static/js/main.cb8081ae.js"
+    "static/js/main.e1b68df4.js"
   ]
 }
