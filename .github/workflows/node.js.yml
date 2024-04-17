@@ -31,10 +31,12 @@ jobs:
         git remote set-url origin https://${{ secrets.MY_TOKEN }}@github.com/AdleeAfif/portfolio-app.git
         
     - run: npm i
-    - name: Set public URL
-      run: |
-        echo "PUBLIC_URL=https://nikadlee.dev" >> $GITHUB_OUTPUT
     - run: npm run build --if-present
-    - name: Create CNAME file
-      run: echo "nikadlee.dev" > ./build/CNAME
-    - run: npm run deploy
+    # - run: npm run deploy
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        destination_dir: .
+        cname: nikadlee.dev
